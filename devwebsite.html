@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Mehta - Creative Developer</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="floating">Dev Mehta</h1>
+            <p class="tagline">Creative Developer | Designer | Problem Solver</p>
+            <div class="nav">
+                <button class="nav-btn" onclick="showSection('about')">About</button>
+                <button class="nav-btn" onclick="showSection('projects')">Projects</button>
+                <button class="nav-btn" onclick="showSection('skills')">Skills</button>
+                <button class="nav-btn" onclick="showSection('contact')">Contact</button>
+            </div>
+        </header>
+
+        <div id="about" class="section">
+            <h2>About Me</h2>
+            <p style="font-size: 1.2em; line-height: 1.8; text-align: center; max-width: 800px; margin: 0 auto;">
+                Hey there! 👋 I'm a passionate developer who loves bringing ideas to life through code. 
+                I believe in creating experiences that are not just functional, but beautiful and intuitive. 
+                When I'm not coding, you'll find me exploring new technologies, sipping coffee, and probably 
+                thinking about my next project. Let's build something amazing together!
+            </p>
+        </div>
+
+        <div id="projects" class="section hidden">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>🎨 Creative Canvas</h3>
+                    <p>An interactive drawing app with real-time collaboration features. Built with HTML5 Canvas and WebSockets.</p>
+                </div>
+                <div class="project-card">
+                    <h3>🎵 Beat Maker Pro</h3>
+                    <p>A web-based music production tool with synthesizers and drum machines. Pure JavaScript magic!</p>
+                </div>
+                <div class="project-card">
+                    <h3>🌍 Travel Mapper</h3>
+                    <p>Track your adventures around the world with an interactive map and journal. Integrated with APIs for location data.</p>
+                </div>
+                <div class="project-card">
+                    <h3>🤖 AI Chat Assistant</h3>
+                    <p>A smart chatbot with natural language processing capabilities. Helping users find information quickly.</p>
+                </div>
+                <div class="project-card">
+                    <h3>📊 Data Visualizer</h3>
+                    <p>Transform complex data into beautiful, interactive charts and graphs. Making data accessible to everyone.</p>
+                </div>
+                <div class="project-card">
+                    <h3>🎮 Retro Arcade</h3>
+                    <p>A collection of classic games reimagined with modern web technologies. Nostalgia meets innovation!</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="skills" class="section hidden">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-container">
+                <span class="skill-badge">JavaScript</span>
+                <span class="skill-badge">React</span>
+                <span class="skill-badge">HTML5</span>
+                <span class="skill-badge">CSS3</span>
+                <span class="skill-badge">Node.js</span>
+                <span class="skill-badge">Python</span>
+                <span class="skill-badge">UI/UX Design</span>
+                <span class="skill-badge">Three.js</span>
+                <span class="skill-badge">Git</span>
+                <span class="skill-badge">API Development</span>
+                <span class="skill-badge">Responsive Design</span>
+                <span class="skill-badge">Animation</span>
+            </div>
+        </div>
+
+        <div id="contact" class="section hidden">
+            <h2>Connect With Me</h2>
+            <p style="text-align: center; font-size: 1.2em; margin-bottom: 20px;">Let's connect on social media!</p>
+            <div class="social-links">
+                <a href="https://instagram.com" target="_blank" class="social-icon instagram" title="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                </a>
+                <a href="https://snapchat.com" target="_blank" class="social-icon snapchat" title="Snapchat">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M12.206.793c.99 0 4.347.276 5.93 3.821.529 1.193.403 3.219.299 4.847l-.003.06c-.012.18-.022.345-.03.51.075.045.203.09.401.09.3 0 .658-.085.909-.238.328-.197.418-.339.418-.339.394-.237.898-.096 1.142.235.245.332.155.826-.219 1.026l-.001.001c-1.416.679-1.863.992-2.106 1.439-.25.458-.221.932-.193 1.515.036.742.077 1.584-.36 2.498-.577 1.206-1.693 1.907-3.108 1.983-.419.02-.673.094-.98.266-.366.197-.816.444-1.652.444-.837 0-1.287-.246-1.653-.444-.307-.172-.56-.246-.979-.266-1.415-.076-2.531-.777-3.108-1.983-.437-.914-.396-1.756-.36-2.498.028-.583.057-1.057-.193-1.515-.243-.447-.69-.76-2.106-1.439l-.001-.001c-.374-.2-.464-.694-.219-1.026.244-.331.748-.472 1.142-.235 0 0 .09.142.418.339.251.153.609.238.909.238.198 0 .326-.045.401-.09-.008-.165-.018-.33-.03-.51l-.003-.06c-.104-1.628-.23-3.654.299-4.847 1.583-3.545 4.94-3.821 5.93-3.821zm.001 1.064c-3.277 0-4.407 2.04-4.407 5.853 0 .314-.004.637-.011.968-.014.688-.032 1.461.01 2.108.046.7.178 1.382.55 1.956.37.572.94.896 1.68.896.406 0 .688-.077.965-.155.293-.082.576-.162 1.046-.162.47 0 .753.08 1.046.162.277.078.559.155.965.155.74 0 1.31-.324 1.68-.896.372-.574.504-1.256.55-1.956.042-.647.024-1.42.01-2.108-.007-.331-.011-.654-.011-.968 0-3.813-1.13-5.853-4.407-5.853z"/>
+                    </svg>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="social-icon linkedin" title="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Dev Mehta. Built with 💜 and lots of coffee.</p>
+        </footer>
+    </div>
+
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.add('hidden');
+            });
+            document.getElementById(sectionId).classList.remove('hidden');
+            
+            // Update active button
+            const buttons = document.querySelectorAll('.nav-btn');
+            buttons.forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+
+        function handleSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            alert(`Thanks for reaching out, ${name}! This is a demo, but in a real site, your message would be sent.`);
+            e.target.reset();
+        }
+
+        // Show about section by default
+        document.addEventListener('DOMContentLoaded', () => {
+            showSection('about');
+            // Set About button as active by default
+            document.querySelector('.nav-btn').classList.add('active');
+        });
+    </script>
+</body>
+</html>
